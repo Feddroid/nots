@@ -43,8 +43,8 @@ var app = {
                                          {googleProjectNumber: "975648338103"},
                                          notificationOpenedCallback);
 
-          window.plugin.OneSignal.setSubcription(true);
-          window.plugin.OneSignal.enableNotificationWhenActive(true);
+          window.plugins.OneSignal.setSubcription(true);
+          window.plugins.OneSignal.enableNotificationWhenActive(true);
           
     },
     // Update DOM on a Received Event
