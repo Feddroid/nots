@@ -45,6 +45,7 @@ var app = {
 
           window.plugins.OneSignal.setSubscription(true);
           window.plugins.OneSignal.enableNotificationWhenActive(true);
+          window.plugins.OneSignal.enableInAppAlertNotification(true);
           
     },
     // Update DOM on a Received Event
