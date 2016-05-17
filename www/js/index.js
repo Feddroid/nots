@@ -43,8 +43,8 @@ var app = {
                                          {googleProjectNumber: "975648338103"},
                                          notificationOpenedCallback);
 
-          window.plugins.OneSignal.setSubscription(true);
-          window.plugins.OneSignal.enableNotificationWhenActive(true);
+          //window.plugins.OneSignal.setSubscription(true);
+          //window.plugins.OneSignal.enableNotificationWhenActive(true);
           window.plugins.OneSignal.enableInAppAlertNotification(true);
           
     },
